@@ -1,0 +1,49 @@
+/*
+  Project name(项目名称)：vue_and_axios_weather_application 
+  File name(文件名): reset
+  Author(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/4/15 
+  Time(创建时间)： 19:29
+  Version(版本): 1.0
+  Description(描述)： 无
+ */
+
+
+body,ul,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:100%;
+    font-weight:normal;
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style:none;
+}
+img{
+    border:0px;
+}
+
+/* 清除浮动，解决margin-top塌陷 */
+.clearfix:before,.clearfix:after{
+    content:'';
+    display:table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    zoom:1;
+}
+
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
